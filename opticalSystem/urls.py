@@ -25,4 +25,5 @@ urlpatterns = [
     url(r'^api/getOriginData/', views.getOriginData),
     url(r'^api/getStrainData/', views.getStrainData),
     url(r'^api/getParaValue/', views.getParaValue),
+    url(r'^api/testMemory/', views.testMemory),
 ]
